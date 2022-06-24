@@ -15,9 +15,9 @@ function App() {
         {/* <Hi country = '대한민국' addr = '서울' count = {2} />
         <Hi country = '대한민국' count = {2} />
         <Hi country = '일본' addr = '도쿄' /> */}
-        <Hi country = '일본' sty = 'blue' />
-        <Hi country = '일본' sty = '#ccc' />
-        <Hi country = '일본' male/>
+        <Hi country = '대한민국' sty = 'blue' />
+        <Hi country = '대한민국' sty = '#ccc' />
+        <Hi country = '대한민국' male/>
       </header>
       {/* footer */}
       <Footer />
