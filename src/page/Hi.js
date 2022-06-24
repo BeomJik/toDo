@@ -2,11 +2,11 @@ import React from 'react';
 import add_circle from '../img/add_circle.svg';
 import PropTypes from 'prop-types'; // 프로퍼티 타입을 지정하기 위해 사용
 
-function Hi({addr,country,count,male}) { // 구조분해
+function Hi({addr,country,count,male,sty}) { // 구조분해
     const name = '박범근';
     const sex = male ? '남자' : '여자';
     return( 
-        <p className='welcome'>
+        <p style={{color: sty}} className='welcome'>
             {country} {addr}
             <strong className='na'>{name}</strong>님({sex}) {count}회 방문을 환영합니다! 
             <img src = {add_circle} className='add_circle'  alt='add_circle'/> 
